@@ -1,6 +1,20 @@
 (function(){
 	var app = angular.module('store', [ ]);
 
+	app.directive('productGallery', function(){
+		return {
+			restrict: 'E',
+			templateUrl: 'product-gallery.html',
+			controller: function(){
+				this.current = 0;
+				this.setCurrent = function(imageNumber){
+					this.current = imageNumber || 0;
+				};
+			},
+			controllerAs: 'gallery',
+		}
+	});
+
 	app.directive('productTitle', function(){
 		return {
 			restrict: 'E', // html-element
@@ -47,10 +61,7 @@
 			description: '. . .',
 			canPurchase: true,
 			images: [
-				{
-					full: 'http://www.tiffany.com/shared/images/engagement/diamond-dark-mobile.jpg',
-					thumb: 'https://scontent.cdninstagram.com/t51.2885-19/s150x150/14533737_186649848471908_7275876467181879296_a.jpg',
-				},
+				'https://scontent.cdninstagram.com/t51.2885-19/s150x150/14533737_186649848471908_7275876467181879296_a.jpg',
 			],
 			reviews: [
 				{
@@ -71,10 +82,8 @@
 			description: '. . .',
 			canPurchase: true,
 			images: [
-				{
-					full: 'https://s-media-cache-ak0.pinimg.com/originals/b5/42/91/b54291068e39035e991f8bc632fb286b.jpg',
-					thumb: 'https://sites.google.com/site/korundhlinik/_/rsrc/1472873022017/home/videogalerie/korund-cerveny.jpg?height=200&width=200',
-				},
+				'https://sites.google.com/site/korundhlinik/_/rsrc/1472873022017/home/videogalerie/korund-cerveny.jpg?height=200&width=200',
+				'http://www.cms.fu-berlin.de/geo/fb/e-learning/petrograph/bilder/mi_korund_080.jpg',
 			],
 			reviews: [
 				{

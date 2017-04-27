@@ -5,3 +5,13 @@
 .ng-valid.ng-dirty{
 	border-color: #78FA89;
 }
+
+.gallery-pic{
+	height: 150px;
+	width: 200px;
+}
+
+.gallery-currentPic{
+	height: 200px;
+	width: 300px;
+}
