@@ -1,9 +1,23 @@
 (function(){
 	var app = angular.module('store', ['store-directives']);
+	app.serverUrl = 'http://yii.com/ex_15/web';
 
-	app.controller('StoreController', function(){
-		this.products = gems;
-	});
+	app.controller('StoreController', ['$http', function($http){
+		var store = this;		
+
+		store.products = [ ]; // to show smth until data is loaded
+		store.films = [ ]; // to show smth until data is loaded
+
+		this.getFilms = function(){
+			return $http.get(app.serverUrl + '/films');
+		}
+
+		this.getFilms().then(function(data){
+			store.films = data.data;
+		});
+
+		store.products = gems;
+	}]);
 
 	app.controller("ReviewController", function(){
 		this.review = {};

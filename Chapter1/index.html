@@ -7,6 +7,14 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body ng-controller='StoreController as store'>
+
+	<!-- <div ng-repeat="film in store.films">
+		<h1>
+			{{film.id}}. {{film.title}}
+		</h1>
+		<blockquote>{{film.release_year}}</blockquote> <br>
+	</div> -->
+
 	<div ng-repeat="product in store.products | orderBy:'-price'">
 		<product-title></product-title>		
 		<product-gallery></product-gallery>

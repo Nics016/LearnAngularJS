@@ -1,0 +1,314 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"load",
+				"loadProducts"
+			],
+			[
+				"prodcut",
+				"products"
+			],
+			[
+				"img",
+				"imageNumber"
+			],
+			[
+				"control",
+				"controllerAs"
+			],
+			[
+				"trans",
+				"transaction"
+			],
+			[
+				"table",
+				"tableOptions"
+			],
+			[
+				"rec",
+				"record"
+			],
+			[
+				"last",
+				"lastActorId"
+			],
+			[
+				"actor",
+				"actorFilms"
+			],
+			[
+				"render",
+				"renderContent"
+			],
+			[
+				"reco",
+				"records"
+			],
+			[
+				"comp",
+				"complex_mult"
+			],
+			[
+				"complex_",
+				"complex_substruct"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 232.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/css"
+	],
+	"file_history":
+	[
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/Readme.md",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/app.js",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/product-gallery.html",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/index.html",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/product.js",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Readme.md",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/css/main.css",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/product-title.html",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/product-panels.html",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/html/product-title.html",
+		"/home/garraty/Documents/Code/html/Small projects/~Learning/06_AngularJS/Chapter1/css/bootstrap.min.css",
+		"/home/garraty/Documents/Code/html/Interesam/ftp/frontend-desktop/sftp-config.json",
+		"/home/garraty/Documents/Code/html/Interesam/ftp/frontend-desktop/ftpsync.settings",
+		"/home/garraty/Documents/Code/html/yii/ex_15/controllers/FilmController.php",
+		"/home/garraty/Documents/Code/html/yii/ex_15/config/web.php",
+		"/home/garraty/Documents/Code/html/yii/readme/ex_15_REST_server.txt",
+		"/home/garraty/Documents/Code/html/yii/ex_15/web/.htaccess",
+		"/home/garraty/Documents/Code/html/yii/ex_05/config/web.php",
+		"/home/garraty/Documents/Code/html/yii/ex_15/config/db.php",
+		"/home/garraty/Documents/Code/html/yii/test_config.php",
+		"/home/garraty/Documents/Code/html/yii/ex_15/migrations/m170422_170554_ccreate_film_table.php",
+		"/home/garraty/Documents/Code/html/yii/readme/ex_14_Decorators.txt",
+		"/home/garraty/Documents/Code/html/yii/ex_14/views/decorators/quote.php",
+		"/home/garraty/Documents/Code/html/yii/ex_14/views/site/index.php",
+		"/home/garraty/Documents/Code/html/yii/ex_014/views/decorators/quote.php",
+		"/home/garraty/Documents/Code/html/yii/views/decorators",
+		"/home/garraty/Documents/Code/html/yii/ex_06/config/web.php",
+		"/home/garraty/Documents/Code/html/yii/ex_06/views/test/urls.php",
+		"/home/garraty/Documents/Code/html/yii/ex_11/controllers/DbController.php",
+		"/home/garraty/Documents/Code/html/yii/ex_10/controllers/FilmController.php",
+		"/home/garraty/Documents/Code/html/yii/readme/ex_03_Code_generation.txt",
+		"/home/garraty/Documents/Code/html/yii/readme/ex_13_authentication.txt",
+		"/var/www/html/info.php",
+		"/home/garraty/Documents/Code/html/yii/ex_13/migrations/m170409_225919_create_test_user.php",
+		"/home/garraty/Documents/Code/html/yii/ex_13/migrations/m170409_225847_create_user_table.php",
+		"/home/garraty/Documents/Code/html/yii/ex_13/models/User.php",
+		"/home/garraty/Documents/Code/html/yii/ex_13/models/LoginForm.php",
+		"/home/garraty/Documents/Code/html/yii/ex_13/migrations/m170407_131106_create_test_user.php",
+		"/home/garraty/Documents/Code/html/yii/ex_13/migrations/m170407_124308_create_user_table.php",
+		"/home/garraty/Documents/Code/html/yii/ex_12/models/User.php",
+		"/home/garraty/Documents/Code/html/yii/ex_13/migrations/m170407_123555_create_user_table.php",
+		"/home/garraty/Documents/Code/html/yii/basic/views/layouts/main.php",
+		"/home/garraty/Documents/Code/html/yii/readme/ex_12_transactions.txt",
+		"/home/garraty/Documents/Code/html/yii/ex_12/models/Account.php",
+		"/home/garraty/Documents/Code/html/yii/ex_12/controllers/TestController.php",
+		"/home/garraty/Documents/Code/html/yii/ex_12/migrations/m170407_005851_add_account_records.php",
+		"/home/garraty/Documents/Code/html/yii/ex_12/migrations/m170407_005003_create_account_table.php",
+		"/home/garraty/Documents/Code/html/yii/ex_12/migrations/m170407_003808_create_account_table.php",
+		"/home/garraty/Desktop/documents/Code/html/yii/ex_12/yii.bat",
+		"/home/garraty/Desktop/documents/Code/html/yii/ex_12/yii",
+		"/home/garraty/Desktop/documents/Code/html/yii/ex_12/vendor/autoload.php",
+		"/home/garraty/Desktop/documents/Code/html/yii/ex_12/config/console.php",
+		"/home/garraty/Documents/Code/html/yii/readme/ex_11_database.txt",
+		"/home/garraty/Documents/Code/html/yii/ex_11/config/db.php",
+		"/home/garraty/Documents/Code/html/yii/ex_11/models/Actors.php",
+		"/home/garraty/Documents/Code/html/yii/ex_11/models/FilmActor.php",
+		"/home/garraty/Documents/Code/html/yii/basic/config/db.php",
+		"/home/garraty/Documents/Code/html/yii/readme/ex_10_pagination_sorting.txt",
+		"/home/garraty/Documents/Code/html/yii/ex_10/views/film/index.php",
+		"/home/garraty/Documents/Code/html/yii/ex_10/config/db.php",
+		"/opt/lampp/htdocs/yii/readme/ex_10.txt",
+		"/opt/lampp/htdocs/yii/readme/ex_1.txt",
+		"/opt/lampp/htdocs/yii/ex_09/controllers/PortfolioController.php",
+		"/opt/lampp/htdocs/yii/readme/ex_09_layouts.txt",
+		"/opt/lampp/htdocs/yii/ex_09/controllers/BlogController.php",
+		"/opt/lampp/htdocs/yii/ex_09/views/layouts/blog.php",
+		"/opt/lampp/htdocs/yii/ex_09/views/site/content.php",
+		"/opt/lampp/htdocs/yii/ex_09/controllers/ArticleController.php",
+		"/opt/lampp/htdocs/yii/ex_09/views/layouts/articles.php",
+		"/home/garraty/Documents/Code/univer/_Prog_2sem_HW/dz_02/Abrashnev.c"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 84.0
+	},
+	"pinned_build_system": "",
+	"project": "AngularJS-project.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
