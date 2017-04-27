@@ -10,13 +10,13 @@
 	<div ng-repeat="product in store.products | orderBy:'-price'">
 		<product-title></product-title>		
 		<product-gallery></product-gallery>
-		<product-panels>			
-		</product-panels>
+		<product-panels></product-panels>
 		<button ng-show="product.canPurchase"> Add to Cart </button>
 	</div>
 	
 	<script src="js/angular.min.js"></script>
 	<script src="app.js"></script>
+	<script src="product.js"></script>
 
 </body>
 </html>
